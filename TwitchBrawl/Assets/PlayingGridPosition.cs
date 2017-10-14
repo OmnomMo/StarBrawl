@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace starBrawl
-{
+
 
     public class PlayingGridPosition : MonoBehaviour
     {
@@ -33,6 +32,11 @@ namespace starBrawl
         public int GetPosY()
         {
             return posY;
+        }
+
+        public Transform GetTransform()
+        {
+            return transform;
         }
 
         public void SetPosX(int x)
@@ -68,4 +72,4 @@ namespace starBrawl
 
         }
     }
-}
+
